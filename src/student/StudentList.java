@@ -11,7 +11,7 @@ package student;
  */
 public class StudentList {
     public static void main(String[]args){
-        Student[] studentList= new Student[3]; //creat aaray
+        Student[] studentList= new Student[2]; //craet aaray
         Student s1 =new Student();
         s1.setName("Zunaira");
         Student s2 =new Student();
