@@ -10,12 +10,22 @@ package student;
  */
 public class Student {
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     /**
      * @param args the command line arguments
      */
     
         
         private String name;
+        private String address;
+        
 
     public String getName() {
         return name;
